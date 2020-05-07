@@ -15,11 +15,11 @@ namespace Connect_Arduino
     public partial class Form1 : Form
     {
 
-        ArduinoConnectSerial Arduino1 ;
+        ArduinoConnectSerial Arduino1 ; //TODO 2 Ardunios machen
 
         public Form1()
         {
-            InitializeComponent();
+            InitializeComponent(); 
             Arduino1 = new ArduinoConnectSerial(ButtonVerbinden, ButtonTrennen, ButtonBlinken, textBoxPort);
             ButtonTrennen.Visible = false;
         }
