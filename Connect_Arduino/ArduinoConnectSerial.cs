@@ -67,7 +67,7 @@ namespace Connect_Arduino
             NachrichtSenden("verbunden");
           }
 
-        public void Trennen() //Todo: 2 mehr Befehle  einfügen
+        public void Trennen() //TODO: mehr Befehle  einfügen
         {
             if (Verbindung != null && Verbindung.IsOpen)
             {

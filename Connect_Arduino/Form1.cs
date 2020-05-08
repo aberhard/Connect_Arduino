@@ -21,7 +21,7 @@ namespace Connect_Arduino
         {
             InitializeComponent(); 
             Arduino1 = new ArduinoConnectSerial(ButtonVerbinden, ButtonTrennen, ButtonBlinken, textBoxPort);
-            ButtonTrennen.Visible = false;
+            ButtonTrennen.Visible = false; // TODO Blinken einfügen auf Form
         }
 
 
